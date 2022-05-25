@@ -1,0 +1,19 @@
+
+body{ 
+    font: normal, 16px, Arial, Verdana, serif;
+    text-align: left;
+}
+
+h1{
+    font: bolder, 20px, Arial, Verdana, serif;
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px; /* identação de afastamento da borda*/
+}
