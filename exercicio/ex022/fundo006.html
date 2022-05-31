@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* shorthand- background
+            color > image > position > repeat
+            > [size] > attachment
+            
+            mesmo com a documentação ensinando assim, a short hand so funciona sem o size como cover.
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover;/* faz a imagem caber na tela idependente do tamnaho. ele não usa 100% da imagem mas usa 100% da view port*/
+            background-size: cover;/* faz a imagem caber na tela idependente do tamnaho. ele não usa 100% da imagem mas usa 100% da view port
+            background-attachment: fixed;*/
+
         }
         
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            
+          
         }
     </style>
 </head>
@@ -31,6 +44,13 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quisquam, provident iure veritatis obcaecati architecto? Commodi sapiente facere magnam! Eligendi hic quas sed deleniti molestiae magni ex impedit obcaecati in.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque et porro delectus error nam autem quaerat totam facere dolorum enim consectetur eos, quam rerum commodi, ullam officia voluptates omnis dicta!
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam velit natus, nobis veritatis saepe pariatur quaerat repudiandae explicabo. Repellat magni cum modi maiores tempore dolorum rem enim distinctio minus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nulla ipsa laboriosam, eum nesciunt maiores blanditiis illo cum cupiditate doloribus perspiciatis ea rerum cumque est ipsum minima deserunt harum aperiam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quia mollitia velit rerum magni necessitatibus praesentium, reprehenderit voluptatibus eos voluptatem perspiciatis tenetur laboriosam corporis. Dolorum sint rem unde sit aperiam!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quis quidem temporibus quod corrupti? Sunt, magni! Ex quos laudantium adipisci id illum, in voluptatum tempora voluptatibus nobis atque enim doloribus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde, tempora optio commodi labore recusandae aliquam at minima ipsam ratione impedit nesciunt omnis perspiciatis numquam qui temporibus illo odit. Porro.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa itaque atque animi, blanditiis quia! Perspiciatis reiciendis ad eos cupiditate quisquam a. Voluptates architecto eos magnam unde tempora, laboriosam recusandae?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum debitis blanditiis aliquid modi! Inventore placeat similique cum maiores voluptates at culpa saepe atque impedit rem ducimus ratione, pariatur quaerat?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quas, deserunt culpa recusandae itaque quod facilis aliquam mollitia debitis consequatur aperiam doloremque ad molestiae eveniet perspiciatis magnam at facere eligendi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi repudiandae deleniti repellat error quo magni quae nulla rerum perferendis tempore doloremque, quod accusantium debitis sapiente accusamus! Quisquam aliquid nihil odio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum minus at adipisci asperiores sapiente id sed a quisquam ipsam! Ratione mollitia explicabo aperiam, dolorum quis consequuntur error repudiandae veniam?
         </p>
     
     
