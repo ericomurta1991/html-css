@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela d14</title>
+    <style>
+        table{
+            border: 1px black solid;
+            border-collapse: collapse;
+        }
+
+        th{
+            border: 1px black solid;
+        }
+
+        .comcor{
+            background-color: gray;
+            color: white;
+            text-shadow: 1px 1px black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="comcor">
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr class="comcor">
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th scope="row">Matemática</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th scope="row">Fisica</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th scope="row">Quimica</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th scope="row">Biologia</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr class="comcor">
+                <th colspan="4" scope="row">Média de Exatas</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <th scope="row">História</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th scope="row">Geográfia</th>
+                <th>0.0</th>
+                <th>0.0</th>
+                <th>0.0</th>
+            </tr>
+            <tr class="comcor">
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <th>0.0</th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
